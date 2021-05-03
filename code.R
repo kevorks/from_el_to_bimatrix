@@ -1,5 +1,5 @@
 library(Matrix)
-from_el_to_bimatrix <- function(el, mode1, mode2){
+from_el_to_bimatrix <- function(el, mode1, mode2) {
   
   if (is_tibble(el)) {
     el <- as.data.frame(el)
