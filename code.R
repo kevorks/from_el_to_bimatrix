@@ -1,5 +1,10 @@
 library(Matrix)
 from_el_to_bimatrix <- function(el, mode1, mode2){
+  
+  if (is_tibble(el)) {
+    el <- as.data.frame(el)
+  }
+  
   bimatrix <- spMatrix(nrow = length(unique(el[,mode1])),
                        ncol = length(unique(el[,mode2])),
                        i = as.numeric(factor(el[,mode1])),
