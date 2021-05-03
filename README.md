@@ -1,5 +1,4 @@
 # from_el_to_bimatrix 
-
 Function to convert an edgelist to its corresponding matrix for bipartite aka two-mode network data analysis.
 
 ``` r
