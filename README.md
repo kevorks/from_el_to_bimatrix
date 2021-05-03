@@ -1,5 +1,4 @@
 # from_el_to_bimatrix 
-
 Function to convert an edgelist to its corresponding matrix for bipartite aka two-mode network data analysis.
 
 ``` r
@@ -18,7 +17,7 @@ head(el)
 #> 5 D     r    
 #> 6 X     q
 
-# this means we expect 12 rows 
+# this means we will expect 12 rows 
 length(table(el$mode1))
 #> [1] 12
 
