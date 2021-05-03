@@ -18,7 +18,7 @@ head(el)
 #> 5 D     r    
 #> 6 X     q
 
-# this means we expect 12 rows 
+# this means we will expect 12 rows 
 length(table(el$mode1))
 #> [1] 12
 
